@@ -11,8 +11,10 @@
 
 | Bean | Clase | Cómo lo declara Spring (`@Component` o `@Bean`) | Singleton o prototype |
 |---|---|---|---|
-| cajeroAutomatico | CajeroAutomatico | … | … |
-| … | … | … | … |
+| cajeroAutomatico | CajeroAutomatico | @Component | Singleton |
+| repositorioEnMemoria | RepositorioEnMemoria | @Component | Singleton |
+| antifraudePorMonto | AntifraudePorMonto | @Component | Singleton |
+| reloj | java.time.Clock | @Bean | Singleton |
 
 ## Boleto de salida
 
